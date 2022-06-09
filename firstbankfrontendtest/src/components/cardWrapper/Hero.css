@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  margin: 25px 24px;
+  line-height: 1.5;
+}
+.sub-title {
+  color: #03009e;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 36px 80px;
+  margin-top: 25px;
+}
+
+.news-line {
+  background: #c4c4c4;
+  height: 1px;
+  margin: 0px 83px 80px;
+}
+.card {
+  font-size: 14px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(165, 165, 165, 0.15);
+}
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.line {
+  height: 2px;
+  background: #ccc;
+  border: none;
+}
+.title p {
+  margin: 20px 24px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2rem;
+  margin-bottom: 2rem;
+}
+
+.contain {
+  width: 91.5%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 31.7%);
+  gap: 2em;
+  margin-bottom: 10rem;
+}
+
+.pagination {
+  font-size: 20px;
+  display: flex;
+  gap: 1.5rem;
+  justify-content:right;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 5rem;
+  margin-right: 10rem;
+}
+
+.star-image {
+  margin-top: -3px;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  font-size:30px;
+}
+
+@media only screen and (max-width: 654px) {
+  .contain {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .pagination {
+    margin: 30px auto;
+    font-size: 13px;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .contain {
+    /* margin-right: 10px;
+    margin-left: 30px; */
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 1046px) {
+  .contain {
+    margin-right: 0px;
+    grid-template-columns: repeat(2, 45%);
+  }
+}

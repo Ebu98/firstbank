@@ -1,0 +1,24 @@
+/* .nav-bar{
+    width: 100%;
+    background-color:blue;
+    color:white;
+    padding-left: 35px;
+    line-height: 45px;
+}
+.sub-title{
+    color: #03009E;
+    padding: 2px;
+    margin: 50px;
+    width: 100%;
+    margin-top:25px;
+} */
+
+.navbar{
+    padding: 23px 80px;
+    background: #03009E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
